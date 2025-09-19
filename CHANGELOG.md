@@ -1,5 +1,27 @@
 # Changelog
 
+## [15.1.1](https://github.com/LazyVim/LazyVim/compare/v15.1.0...v15.1.1) (2025-09-18)
+
+
+### Bug Fixes
+
+* **core:** check for outdated nightly. See [#6458](https://github.com/LazyVim/LazyVim/issues/6458) ([cfac3c9](https://github.com/LazyVim/LazyVim/commit/cfac3c9a85526ad7406f9b246097a1ec4fa1a2c3))
+* **lspconfig:** remove all usage of `lspconfig` ([36b4191](https://github.com/LazyVim/LazyVim/commit/36b41911ab90fe19505af306a31a5a699342d3c3))
+* **lsp:** schedule_wrap setting up LSPs to work around root cause of [#6456](https://github.com/LazyVim/LazyVim/issues/6456). Fixes [#6456](https://github.com/LazyVim/LazyVim/issues/6456) ([75a3809](https://github.com/LazyVim/LazyVim/commit/75a3809e15a0ecff9adc46c6cd3aaac51d99b561))
+
+## [15.1.0](https://github.com/LazyVim/LazyVim/compare/v15.0.3...v15.1.0) (2025-09-18)
+
+
+### Features
+
+* **treesitter:** automatically install and use mason's tree-sitter-cli if not installed on system ([725d048](https://github.com/LazyVim/LazyVim/commit/725d048e009b866425b2a0cc620ba2c413e8b65f))
+* **treesitter:** refactored setting up treesitter indent/highlight/folds ([b93303d](https://github.com/LazyVim/LazyVim/commit/b93303d2339b1117171780cebed1d710fd3805d5))
+
+
+### Bug Fixes
+
+* **snacks:** safe wrapper around snacks statuscolumn to prevent errors when LazyVim is still installing ([5bf2378](https://github.com/LazyVim/LazyVim/commit/5bf237820d7938b1b6490164fbd75e4117d341c1))
+
 ## [15.0.3](https://github.com/LazyVim/LazyVim/compare/v15.0.2...v15.0.3) (2025-09-17)
 
 
